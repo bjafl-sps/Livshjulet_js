@@ -1,0 +1,167 @@
+<html>
+<head>
+	<link rel="stylesheet" href="livshjulet.css">
+	<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+	<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+	<script src="https://cdn.amcharts.com/lib/5/radar.js"></script>
+	<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+	<script src="https://cdn.amcharts.com/lib/5/themes/Material.js"></script>
+</head>
+<body>
+<div class="areas">
+	<table>
+		<tr>
+			<td>
+				<div class="area">
+					<h3>Form, kropp og helse</h3>
+					<div class="values">
+					  <div class="value" onclick="setValue(0, 1);">1</div>
+					  <div class="value" onclick="setValue(0, 2);">2</div>
+					  <div class="value" onclick="setValue(0, 3);">3</div>
+					  <div class="value" onclick="setValue(0, 4);">4</div>
+					  <div class="value" onclick="setValue(0, 5);">5</div>
+					  <div class="value" onclick="setValue(0, 6);">6</div>
+					  <div class="value" onclick="setValue(0, 7);">7</div>
+					  <div class="value" onclick="setValue(0, 8);">8</div>
+					  <div class="value" onclick="setValue(0, 9);">9</div>
+					  <div class="value" onclick="setValue(0, 10);">10</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="area">
+					<h3>Jobb og karriere</h3>
+					<div class="values">
+					  <div class="value" onclick="setValue(1, 1);">1</div>
+					  <div class="value" onclick="setValue(1, 2);">2</div>
+					  <div class="value" onclick="setValue(1, 3);">3</div>
+					  <div class="value" onclick="setValue(1, 4);">4</div>
+					  <div class="value" onclick="setValue(1, 5);">5</div>
+					  <div class="value" onclick="setValue(1, 6);">6</div>
+					  <div class="value" onclick="setValue(1, 7);">7</div>
+					  <div class="value" onclick="setValue(1, 8);">8</div>
+					  <div class="value" onclick="setValue(1, 9);">9</div>
+					  <div class="value" onclick="setValue(1, 10);">10</div>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="area">
+					<h3>Partner, kjærlighet</h3>
+					<div class="values">
+					  <div class="value" onclick="setValue(2, 1);">1</div>
+					  <div class="value" onclick="setValue(2, 2);">2</div>
+					  <div class="value" onclick="setValue(2, 3);">3</div>
+					  <div class="value" onclick="setValue(2, 4);">4</div>
+					  <div class="value" onclick="setValue(2, 5);">5</div>
+					  <div class="value" onclick="setValue(2, 6);">6</div>
+					  <div class="value" onclick="setValue(2, 7);">7</div>
+					  <div class="value" onclick="setValue(2, 8);">8</div>
+					  <div class="value" onclick="setValue(2, 9);">9</div>
+					  <div class="value" onclick="setValue(2, 10);">10</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="area">
+					<h3>Personlig utvikling, utdanning</h3>
+					<div class="values">
+					  <div class="value" onclick="setValue(3, 1);">1</div>
+					  <div class="value" onclick="setValue(3, 2);">2</div>
+					  <div class="value" onclick="setValue(3, 3);">3</div>
+					  <div class="value" onclick="setValue(3, 4);">4</div>
+					  <div class="value" onclick="setValue(3, 5);">5</div>
+					  <div class="value" onclick="setValue(3, 6);">6</div>
+					  <div class="value" onclick="setValue(3, 7);">7</div>
+					  <div class="value" onclick="setValue(3, 8);">8</div>
+					  <div class="value" onclick="setValue(3, 9);">9</div>
+					  <div class="value" onclick="setValue(3, 10);">10</div>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="area">
+					<h3>Venner og familie</h3>
+					<div class="values">
+					  <div class="value" onclick="setValue(4, 1);">1</div>
+					  <div class="value" onclick="setValue(4, 2);">2</div>
+					  <div class="value" onclick="setValue(4, 3);">3</div>
+					  <div class="value" onclick="setValue(4, 4);">4</div>
+					  <div class="value" onclick="setValue(4, 5);">5</div>
+					  <div class="value" onclick="setValue(4, 6);">6</div>
+					  <div class="value" onclick="setValue(4, 7);">7</div>
+					  <div class="value" onclick="setValue(4, 8);">8</div>
+					  <div class="value" onclick="setValue(4, 9);">9</div>
+					  <div class="value" onclick="setValue(4, 10);">10</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="area">
+					<h3>Økonomi</h3>
+					<div class="values">
+					  <div class="value" onclick="setValue(5, 1);">1</div>
+					  <div class="value" onclick="setValue(5, 2);">2</div>
+					  <div class="value" onclick="setValue(5, 3);">3</div>
+					  <div class="value" onclick="setValue(5, 4);">4</div>
+					  <div class="value" onclick="setValue(5, 5);">5</div>
+					  <div class="value" onclick="setValue(5, 6);">6</div>
+					  <div class="value" onclick="setValue(5, 7);">7</div>
+					  <div class="value" onclick="setValue(5, 8);">8</div>
+					  <div class="value" onclick="setValue(5, 9);">9</div>
+					  <div class="value" onclick="setValue(5, 10);">10</div>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="area">
+			<h3>Moro og avkobling</h3>
+					<div class="values">
+					  <div class="value" onclick="setValue(6, 1);">1</div>
+					  <div class="value" onclick="setValue(6, 2);">2</div>
+					  <div class="value" onclick="setValue(6, 3);">3</div>
+					  <div class="value" onclick="setValue(6, 4);">4</div>
+					  <div class="value" onclick="setValue(6, 5);">5</div>
+					  <div class="value" onclick="setValue(6, 6);">6</div>
+					  <div class="value" onclick="setValue(6, 7);">7</div>
+					  <div class="value" onclick="setValue(6, 8);">8</div>
+					  <div class="value" onclick="setValue(6, 9);">9</div>
+					  <div class="value" onclick="setValue(6, 10);">10</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="area">
+					<h3>Hjem, fysiske omgivelser</h3>
+					<div class="values">
+					  <div class="value" onclick="setValue(7, 1);">1</div>
+					  <div class="value" onclick="setValue(7, 2);">2</div>
+					  <div class="value" onclick="setValue(7, 3);">3</div>
+					  <div class="value" onclick="setValue(7, 4);">4</div>
+					  <div class="value" onclick="setValue(7, 5);">5</div>
+					  <div class="value" onclick="setValue(7, 6);">6</div>
+					  <div class="value" onclick="setValue(7, 7);">7</div>
+					  <div class="value" onclick="setValue(7, 8);">8</div>
+					  <div class="value" onclick="setValue(7, 9);">9</div>
+					  <div class="value" onclick="setValue(7, 10);">10</div>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+  <!---<div class="area">
+    <h3>All done!</h3>
+  </div>--->
+</div>
+
+<div id="chartdiv"></div>
+	<script src="livshjulet.js"></script>
+	</body>
+</html>
