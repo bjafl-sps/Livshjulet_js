@@ -1,0 +1,48 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#chartdiv {
+  width: 100%;
+  height: 600px;
+}
+
+th, td {
+  border: 2px solid;
+  padding: 15px;
+  text-align: center;
+  border-color: orange;
+}
+
+table {
+  border-collapse: collapse;
+  width:800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3{
+  font-size: 1.1em;
+}
+
+.areas {
+  text-align: center;
+  margin-bottom: 15px;
+  min-height: 95px;
+}
+
+.areas .value {
+  display: inline-block;
+  font-size: 1em;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.areas .value:hover {
+  background: #ecc;
+}
+
+.areas .value.clicked {
+	background: #ecc;
+}
